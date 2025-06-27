@@ -1,6 +1,14 @@
 #!/usr/bin/python3
-def add, sub, mul, div(a, b)
-return a + b
-       a - b
-       a * b
-       a / b
+
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    return a // b  # Use // if integer division is required
+
