@@ -8,5 +8,5 @@ print(
              if chr(i)not in ('q', 'e')
           )
         ),
-         end=""
+     end=""
 )
