@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def max_integer(my_list=[]):
     if not my_list:  # If the list is empty
         return None
@@ -11,4 +12,3 @@ def max_integer(my_list=[]):
             max_val = num  # Update max_val if we find a bigger number
 
     return max_val
-
