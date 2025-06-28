@@ -9,7 +9,7 @@ matrix = [
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         for num in row:
-            print ("{:>4}".format(num), end="")
+            print ("{:>4d}".format(num), end="")
         print("$")
 
 print_matrix_integer(matrix)
