@@ -8,10 +8,8 @@ def delete_at(my_list=[], idx=0):
     # Shift elements left starting from idx
     for i in range(idx, len(my_list) - 1):
         my_list[i] = my_list[i + 1]
-    # Remove the last duplicate element after shifting
-    my_list.pop()  # You mentioned no pop, so we can do slicing instead
 
-    # Since pop() is not allowed, do this instead:
-    del my_list[-1]
+    # Remove the last element by slicing
+    my_list[:] = my_list[:-1]
 
     return my_list
