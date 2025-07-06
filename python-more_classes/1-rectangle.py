@@ -4,11 +4,12 @@ This module defines a Rectangle class with width and height attributes,
 including property getters and setters with type and value validation.
 """
 
-class Rectangle:
+class Rectangle:i
+
     """Defines a rectangle with width and height."""
     def __init__(self, width=0, height=0):
         self.width = width
-        self.height= height
+        self.height = height
 
     @property
 
